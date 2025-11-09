@@ -1,0 +1,34 @@
+@startuml
+title Escenario de Inicio de Sesión (Login)
+
+actor Usuario
+boundary Interfaz
+control ControladorLogin
+entity ServicioAutenticacion
+database BaseDeDatos
+
+Usuario -> Interfaz : ingresarCredenciales(usuario, contraseña)
+activate Interfaz
+
+    Interfaz -> ControladorLogin : enviarDatos(usuario, contraseña)
+    activate ControladorLogin
+    
+        ControladorLogin -> ServicioAutenticacion : verificarCredenciales(usuario, contraseña)
+        activate ServicioAutenticacion
+        
+            ServicioAutenticacion -> BaseDeDatos : consultarUsuario(usuario)
+            activate BaseDeDatos
+            
+                BaseDeDatos --> ServicioAutenticacion : datosUsuario
+            deactivate BaseDeDatos
+        
+        ServicioAutenticacion --> ControladorLogin : resultado : boolean
+        deactivate ServicioAutenticacion
+    
+    ControladorLogin --> Interfaz : mostrarMensaje("Acceso concedido")
+deactivate ControladorLogin
+
+Interfaz --> Usuario : mostrarPantallaPrincipal()
+deactivate Interfaz
+
+@enduml

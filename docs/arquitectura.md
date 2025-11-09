@@ -12,7 +12,7 @@
 - **Casos de uso**  
   ![Casos de uso](modelado/logica/casos_de_uso.png)
 
-- **Diagrama de secuencia**  
+- **Diagrama de secuencia**  (ejemplo)
   ![Diagrama de secuencia](modelado/logica/diagrama_de_secuencia.png)
 
 ---

@@ -12,9 +12,9 @@ El modelo 4+1 posee las siguientes vistas:
 
 ## Diagramas de la Vista Lógica
 
-- **Diagrama de clases**  
-- **Diagrama de casos de uso**  
-- **Diagrama de secuencia**
+- **Diagrama de clases:** Representa las abstracciones lógicas del sistema mediante clases, atributos y métodos, así como las relaciones existentes entre ellas.
+- **Diagrama de casos de uso:** Muestra los distintos actores que interactúan con el sistema y las funcionalidades (casos de uso) a las que cada uno tiene acceso.
+- **Diagrama de secuencia:** Describe la interacción entre objetos o componentes del sistema a lo largo del tiempo, mostrando el orden de los mensajes que se envían entre sí para cumplir una función específica.
 
 ---
 
