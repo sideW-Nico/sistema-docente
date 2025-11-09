@@ -1,5 +1,5 @@
 # sistema-docente
-Repositorio utilizado para probar tecnologías ya conocidas y por conocer, teniendo una visión progresiva e incremental para un programa genérico de docentes.
+Repositorio utilizado para probar tecnologías ya conocidas y por conocer, teniendo una visión progresiva e incremental para un programa genérico de gestión de docentes y cosas vinculadas a una institución educativa.
 
 # Tecnologías y Herramientas a utilizar
 - **Java 21**
