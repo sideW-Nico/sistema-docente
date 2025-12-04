@@ -2,18 +2,12 @@
 Repositorio utilizado para probar tecnologías ya conocidas y por conocer, teniendo una visión progresiva e incremental para un programa genérico de gestión de docentes y cosas vinculadas a una institución educativa.
 
 # Tecnologías y Herramientas a utilizar
-- **Java 21**
-- **Spring Boot 3.5.7**
-  - Spring Web
-  - Spring Security
-  - Spring Data JPA
-  - Flyway Migration
-  - PostgreSQL Driver
-  
-  
+- **PHP 8.3**
+- **HTML5**
+- **CSS3**
+
  ## Build y entorno
-- **Maven 3.5.7**
-- **Eclipse 2025-09** + **Spring Tools (STS 4.32.1)**
+- **Visual Studio Code**
 - **Docker Desktop** + **Docker Compose**
 
 ## Base de datos
@@ -21,8 +15,8 @@ Repositorio utilizado para probar tecnologías ya conocidas y por conocer, tenie
 - **pgAdmin 4 v9.9**
 
 ## Testing
-- **JUnit 5.12.2**
-- **Mockito 5.17**
+- **PestPHP**
+- **Postman**
 
 ## Documentación y diagramas
 - Markdown
